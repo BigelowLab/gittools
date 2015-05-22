@@ -1,0 +1,13 @@
+Package: gittools
+Maintainer: Ben Tupper <btupper@bigelow.org>
+Author: Ben Tupper
+Version: 1.0
+License: GPL-3
+Title: gittools - helper fucntions for working with git
+Description: gittools is a set of wrappes around various git commands such as
+    grep
+Depends:
+    R (>= 2.15.0),
+    devtools
+Imports:
+    methods
